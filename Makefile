@@ -1,38 +1,3 @@
-# NAME1	=	server
-# NAME2	=	client
-# NAME3	=	utils
-
-# CC		=	gcc
-
-# #SRCS 	= 	src/ \
-
-# OBJS	=	${SRCS:.c=.o}
-
-# RM		=	rm -rf
-
-# FLAGS	=	-Wall -Wextra -Werror 
-
-# all:
-# 			$(CC) $(CFLAGS) server.c -o $(NAME1)
-# 			$(CC) $(CFLAGS) client.c -o $(NAME2)
-# 			$(CC) $(CFLAGS) utils.c -o $(NAME3)
-
-# ${NAME}:	${OBJS}
-# 			cc ${FLAGS} ${OBJS} -o ${NAME}
-
-# %.o : %.c
-# 			${CC} ${FLAGS} -c $< -o ${<:.c=.o}
-
-# clean:
-# 			${RM} ${OBJS}
-
-# fclean:		clean
-# 			${RM} ${NAME1} ${NAME2} $(NAME3)
-
-# re:			fclean all
-
-# .PHONY: 	all clean fclean re
-
 CLIENT_NAME			=	client
 CLIENT_BONUS		=	bonus/client
 
